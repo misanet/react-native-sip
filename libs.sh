@@ -1,8 +1,12 @@
 #!/bin/bash
+
+echo SKIP
+exit 0
+
 set -e
 
-VERSION="v2.8.0"
-URL="https://github.com/florindumitru/react-native-pjsip-builder/archive/v2.8.0.tar.gz"
+VERSION="v3.0.0"
+URL="https://github.com/telefon-one/react-native-sip2-builder/releases/download/${VERSION}/release.tar.gz"
 LOCK=".libs.lock"
 DEST=".libs.tar.gz"
 DOWNLOAD=true
