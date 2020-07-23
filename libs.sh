@@ -30,8 +30,4 @@ if [ "$DOWNLOAD" = true ]; then
     rm -f "${DEST}"
 
     echo "${VERSION}" > ${LOCK}
-    cd react-native-pjsip-builder-2.8.0
-    ./release.sh
-    cp -rf dist/ios/VialerPJSIP.framework ../ios/
-    cp -rf dist/android/src/* ../android/src
 fi
